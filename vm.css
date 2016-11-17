@@ -1,0 +1,25 @@
+#container, html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.back-top {
+  background-color: #D5EADB;
+  height: 70%;
+}
+
+.back-bott {
+  background-color: #FDE892;
+  height: 30%;
+}
+
+img {
+    position: absolute;
+    height: 400px;
+    width: 257px;
+    top: 50%;
+    left: 50%;
+    margin-left: -128.5px;
+    margin-top: -200px;
+
+}
