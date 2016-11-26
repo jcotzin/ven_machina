@@ -5,21 +5,53 @@
 
 .back-top {
   background-color: #D5EADB;
-  height: 70%;
+  height: 60%;
 }
 
 .back-bott {
   background-color: #FDE892;
-  height: 30%;
+  height: 40%;
+  text-align: center;
 }
 
-img {
+.vending-machine {
     position: absolute;
     height: 400px;
     width: 257px;
-    top: 50%;
+    top: 38%;
     left: 50%;
     margin-left: -128.5px;
     margin-top: -200px;
-
 }
+
+.vm-logo {
+  position: absolute;
+  height: 350px;
+  top: 0px;
+  left: -60px;
+}
+
+#drinks, #chips, #bars {
+  /*position: absolute;*/
+  height: 150px;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+}
+
+#drinks:hover, #chips:hover, #bars:hover{
+  transform: scale(1.2, 1.2);
+  -ms-transform: scale(1.2, 1.2)); /* IE 9 */
+  -webkit-transform: scale(1.2, 1.2);
+  cursor: pointer;
+}
+
+/*.vm-logo:hover {
+  -webkit-animation:spin .2s linear infinite;
+  -moz-animation:spin .2s linear infinite;
+   animation:spin .2s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }*/
