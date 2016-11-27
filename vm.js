@@ -32,7 +32,7 @@ $(document).ready(function() {
         $("#chips").click(function() {
             chips.play();
         });
-
+        
         var bars = document.createElement("audio");
         bars.src = "images/candy.wav";
         bars.volume=1;
