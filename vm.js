@@ -22,6 +22,10 @@ $(document).ready(function() {
         $(".vending-machine").hover(function() {
           shake.play();
         });
+        $(".vending-machine").click(function() {
+          shake.play();
+
+        });
 
         var drinks = document.createElement("audio");
         drinks.src="images/drink.wav";
