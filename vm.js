@@ -13,6 +13,16 @@
 //   audio.play();
 // });
 $(document).ready(function() {
+        var shake = document.createElement("audio");
+        shake.src="images/shake1.wav";
+        shake.volume=1;
+        shake.autoPlay=false;
+        shake.preLoad=true;
+
+        $(".vending-machine").hover(function() {
+          shake.play();
+        });
+
         var drinks = document.createElement("audio");
         drinks.src="images/drink.wav";
         drinks.volume=1;
@@ -32,7 +42,7 @@ $(document).ready(function() {
         $("#chips").click(function() {
             chips.play();
         });
-        
+
         var bars = document.createElement("audio");
         bars.src = "images/candy.wav";
         bars.volume=1;
