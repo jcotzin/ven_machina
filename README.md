@@ -4,4 +4,4 @@ This is a simple little website I created using HTML, CSS, and JS to play around
 
 You can check it out here:
 
-https://vend-o-matic.herokuapp.com/index.html
+http://vend-o-matic.us/
